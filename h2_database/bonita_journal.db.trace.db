@@ -1,0 +1,15 @@
+2020-09-03 12:25:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SEQUENCE" not found; SQL statement:
+select count(*) from sequence [42102-199]
+2020-09-03 12:25:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "SEQUENCE" not found; SQL statement:
+select count(*) from sequence [42102-199]
+10-26 15:58:04 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "PROCESS_DEFINITION" not found; SQL statement:
+select * from process_definition [42102-170]
+10-26 15:59:47 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "ALL_TABLES" not found; SQL statement:
+select * from all_tables [42102-170]
+10-26 16:00:58 jdbc[2]: exception
+org.h2.jdbc.JdbcSQLException: Table "CLAIM" not found; SQL statement:
+SELECT * FROM CLAIM  [42102-170]
